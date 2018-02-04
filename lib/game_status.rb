@@ -44,8 +44,8 @@ end
 
 def winner(board)
     if !draw(board)
-    win_combination = won?(board)
-    win_index = win_combination[0]
-    board[win_index]
+      win_combination = won?(board)
+      win_index = win_combination[0]
+      board[win_index]
     end
 end
