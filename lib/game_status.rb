@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if !board.any? {|i| i=="X" || i == "O"}
+  if !board.any? {|i| i == "X" || i == "O"}
     false
   else
     true
