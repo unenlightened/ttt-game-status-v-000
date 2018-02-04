@@ -28,7 +28,7 @@ def won?(board)
     if false
       return true # return the win_combination indexes that won.
     else
-      false
+      return false
     end
   end
 
