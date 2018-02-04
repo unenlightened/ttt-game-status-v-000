@@ -16,5 +16,9 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.detect{|i| position_taken?(board,i.index)}
+  
+end
+
+def empty?(board)
+  if board.any? {|i| i=="X" || i == "O"}
 end
