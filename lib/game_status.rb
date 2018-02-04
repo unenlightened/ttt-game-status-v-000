@@ -41,3 +41,6 @@ end
 def over?(board)
   won?(board) || draw?(board)
 end
+
+def winner(win_combination)
+end
