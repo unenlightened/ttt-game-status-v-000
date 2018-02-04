@@ -46,5 +46,5 @@ def winner(board)
     win_combination = won?(board)
     win_index = win_combination[0]
     winner = board[win_index]
-  end
+  
 end
