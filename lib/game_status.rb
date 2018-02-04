@@ -16,9 +16,10 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  
+  if !board.any? {|i| i=="X" || i == "O"}
+    false
+  else
+    true
 end
 
-def empty?(board)
-  if board.any? {|i| i=="X" || i == "O"}
-end
+
