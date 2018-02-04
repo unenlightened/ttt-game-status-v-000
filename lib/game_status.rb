@@ -17,6 +17,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
  board.none? {|i| i == "X" || i == "O"} #empty board
-    
-  
+
+
 end
