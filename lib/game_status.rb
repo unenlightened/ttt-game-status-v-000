@@ -43,7 +43,7 @@ def over?(board)
 end
 
 def winner(board)
-    if !over?(board)
+    if over?(board)
       return nil
     else
       win_combination = won?(board)
