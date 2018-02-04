@@ -44,7 +44,7 @@ end
 
 def winner(board)
     if !over?(board)
-      
+
     else
       win_combination = won?(board)
       win_index = win_combination[0]
