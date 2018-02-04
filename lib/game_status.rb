@@ -21,5 +21,3 @@ def won?(board)
   else
     true
 end
-
-
