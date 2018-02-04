@@ -32,6 +32,7 @@ end
 
 def full?(board)
   board.all? {|i| i == "X" || i =="O"}
+  board.any? {|i| position_taken?(board,i.index)}
 end
 
 def draw?(board)
