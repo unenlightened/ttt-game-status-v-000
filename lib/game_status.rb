@@ -47,6 +47,7 @@ def winner(board)
     if win_combination do
       win_index = win_combination[0]
       board[win_index]
+    end
     else
       return nil
     end
